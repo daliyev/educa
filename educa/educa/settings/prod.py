@@ -21,7 +21,7 @@ DATABASES = {
 }
 
 REDIS_URL = 'redis://cache:6379'
-CACHE['default']['LOCATION'] = REDIS_URL
+CACHES['default']['LOCATION'] = REDIS_URL
 CHANNEL_LAYERS['default']['CONFIG']['hosts'] = [REDIS_URL]
 
 CSRF_COOKIE_SECURE = True
