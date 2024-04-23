@@ -7,7 +7,7 @@ ADMINS = [
     ('Frank', 'daliyevazizbekk@gmail.com'),
 ]
 
-ALLOWED_HOSTS = ['0.0.0.0', '16.171.170.0', 'educa.daliyev.uz']
+ALLOWED_HOSTS = ['0.0.0.0', '16.171.170.0', 'daliyev.uz', 'www.daliyev.uz']
 
 DATABASES = {
     'default': {
